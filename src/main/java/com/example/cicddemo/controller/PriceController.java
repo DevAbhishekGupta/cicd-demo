@@ -25,7 +25,7 @@ public class PriceController {
 
     @GetMapping("/hello")
     public Map<String, String> hello(@RequestParam(defaultValue = "World") String name) {
-        return Map.of("message", "Hello, " + name + "!");
+        return Map.of("message", "Hellooo, " + name + "!");
     }
 
     @GetMapping("/price")
